@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>strongdogXP</title>
+    <meta
+      name="description"
+      content="Strong Dog XP gaming discovery landing page clone"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <button class="menu-button" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="brand" aria-label="Strong Dog XP home">
+          <span class="brand-text">strongdog</span><span class="brand-accent">XP</span>
+        </div>
+
+        <div class="topbar-actions">
+          <button class="dots-button" aria-label="More options">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <label class="searchbox" aria-label="Game search">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M10.5 3a7.5 7.5 0 015.88 12.8l4.39 4.4 1.41-1.41-4.4-4.39A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 100 11 5.5 5.5 0 000-11z"/>
+            </svg>
+            <input type="text" placeholder="Search 1016 games..." aria-label="Search games" />
+          </label>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Curated gaming discovery</p>
+            <h1>Find your next obsession.</h1>
+            <p class="lead">
+              Browse trending games, hidden gems, and high-impact action titles from the
+              strongest creators in the scene.
+            </p>
+            <div class="cta-row">
+              <a href="#games" class="primary-btn">Explore games</a>
+              <a href="#featured" class="secondary-btn">Featured</a>
+            </div>
+          </div>
+
+          <div class="hero-panel" id="featured">
+            <div class="game-card feature-card">
+              <div class="badge">Featured</div>
+              <div class="card-art"></div>
+              <div class="card-body">
+                <h2>Shadow Drift</h2>
+                <p>Neon racing. Tactical combat. Infinite replay.</p>
+                <div class="meta-row">
+                  <span>4.9</span>
+                  <span>Action</span>
+                  <span>1.2k players</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="games-section" id="games">
+          <div class="section-heading">
+            <h3>Top picks</h3>
+            <a href="#">View all</a>
+          </div>
+
+          <div class="games-grid">
+            <article class="game-card">
+              <div class="card-art art-one"></div>
+              <div class="card-body">
+                <h4>Steel Valley</h4>
+                <p>Open-world survival with raid mechanics.</p>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <div class="card-art art-two"></div>
+              <div class="card-body">
+                <h4>Blaze Protocol</h4>
+                <p>Futuristic tactics for aggressive playstyles.</p>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <div class="card-art art-three"></div>
+              <div class="card-body">
+                <h4>Wild Circuit</h4>
+                <p>Arcade racing with a cinematic edge.</p>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <div class="card-art art-four"></div>
+              <div class="card-body">
+                <h4>Echo Nexus</h4>
+                <p>Puzzle exploration designed for deep focus.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
